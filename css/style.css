@@ -55,9 +55,15 @@ html, body{
 }
 header{
 	width: auto;
+	height: 800px;
 	text-align: center;
 	text-transform: uppercase;
 	background-color: #E8B840;
+	background-image: url("https://mikealmonte.files.wordpress.com/2016/01/screen-shot-2016-01-19-at-9-53-34-am.png");
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
 
 }
 
