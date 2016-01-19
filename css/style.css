@@ -1,7 +1,21 @@
 body{
-	
+
 }
+/*<header>
+	<img src="https://mikealmonte.files.wordpress.com/2016/01/screen-shot-2016-01-19-at-9-53-34-am.png">
+	<h1>Jill's Olive Farm</h1>
+	<div class="content">
+	<h2>About The Olive Farm</h2>
+	<p>Fowke-Bate family-owned business bringing the best out of olives.
+	<h2>We want you to feel</p>
+	<ol>
+		<li>Healthy</li>
+		<li>Nourished</li>
+		<li>Light</li>
+	</ol>
+	</header>*/
 header{
+	text-align: center;
 	background-color: #00004C
 	padding: 40px;
 }
@@ -20,5 +34,5 @@ h2{
 }
 
 header img{
-	border-radius: 150px;
+	border-radius: 50px;
 }
