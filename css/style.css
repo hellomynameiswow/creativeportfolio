@@ -1,19 +1,7 @@
-body{
-
+html, body{
+	font-family: Arial, sans-serif;
+	margin: 0;
 }
-/*<header>
-	<img src="https://mikealmonte.files.wordpress.com/2016/01/screen-shot-2016-01-19-at-9-53-34-am.png">
-	<h1>Jill's Olive Farm</h1>
-	<div class="content">
-	<h2>About The Olive Farm</h2>
-	<p>Fowke-Bate family-owned business bringing the best out of olives.
-	<h2>We want you to feel</p>
-	<ol>
-		<li>Healthy</li>
-		<li>Nourished</li>
-		<li>Light</li>
-	</ol>
-	</header>*/
 header{
 	text-align: center;
 	background-color: #00004C
@@ -35,5 +23,43 @@ h2{
 
 header img{
 	border-radius: 50px;
-	width: 700px;
+	width: 400px;
+}
+.content{
+	max-width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	padding: 0 20px;
+}
+
+img.main-image{
+	max-width: 100%;
+	padding: 50px;
+}
+
+p.caption{
+	font-size: 11px;
+	font-color:lightgrey
+	font-style: italic;
+}
+
+ul{
+	list-style: none;
+	pading: 0;
+	margin: 0;
+}
+
+a{
+	color: red:
+	text-decoration:none;
+}
+
+footer{
+	padding: 40px 20px;
+	background-color: #E6E6E6;
+}
+
+footer ul li{
+	display: inline-block;
+	margin: 0 5px;
 }
