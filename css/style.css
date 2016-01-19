@@ -88,6 +88,10 @@ header img{
 
 img.main-image{
 	max-width: 100%;
+	border-radius: 10px;
+	width: 50%;
+	background-color: black;
+	box-shadow: 0 5px 10px black;
 }
 
 p.caption{
