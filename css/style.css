@@ -1,0 +1,24 @@
+body{
+	
+}
+header{
+	background-color: #00004C
+	padding: 40px;
+}
+
+h1{
+		color:orange;
+		font-size: 60px;
+		font-family: helvetica;
+		word-spacing: 50px;
+}
+
+h2{
+		color:blue;
+		font-size: 30px;
+		font-family: helvetica;
+}
+
+header img{
+	border-radius: 150px;
+}
