@@ -51,15 +51,14 @@ html, body{
 	width: auto;
 	background-color: #DBA334;
 	font-family: Helvetica, Arial, sans-serif;
-	margin: 0;
+
 }
 header{
 	width: auto;
 	text-align: center;
 	text-transform: uppercase;
 	background-color: #E8B840;
-	padding: -50px;
-	margin: -50px;
+
 }
 
 h1{
@@ -78,22 +77,17 @@ h2{
 header img{
 	border-radius: 10px;
 	width: 50%;
-	padding: 0;
-	margin: 20;
 	background-color: black;
 	box-shadow: 0 5px 10px black;
 }
 .content{
 	max-width: 100%;
-	margin: 0 auto;
 	text-align: center;
-	padding: 20px 20px 20px 20px;
-	margin: 20px;
+
 }
 
 img.main-image{
 	max-width: 100%;
-	padding: 50px 50px 50px 50px;
 }
 
 p.caption{
