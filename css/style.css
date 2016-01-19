@@ -5,7 +5,7 @@ html, body{
 header{
 	text-align: center;
 	text-transform: uppercase;
-	background-color: #00004C
+	background-color: #00004C;
 	padding: 40px;
 }
 
@@ -24,7 +24,10 @@ h2{
 
 header img{
 	border-radius: 50px;
-	width: 400px;
+	width: 900px;
+	padding: 10px;
+	background-color: black;
+	box-shadow: 0 5px 10px black;
 }
 .content{
 	max-width: 100%;
