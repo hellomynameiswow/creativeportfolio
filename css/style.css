@@ -17,7 +17,10 @@ figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
-	padding: 0;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-left: 0px;
+	padding-bottom: 0px;
 	border: 0;
 	font-size: 100%;
 	font: inherit;
@@ -49,17 +52,14 @@ table {
 
 html, body{
 	width: auto;
-	background-color: #DBA334;
+	background-color: #999966;
 	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
 
 }
 header{
 	width: auto;
-	height: 800px;
-	text-align: center;
-	text-transform: uppercase;
-	background-color: #E8B840;
-	background-image: url("https://mikealmonte.files.wordpress.com/2016/01/screen-shot-2016-01-19-at-9-53-34-am.png");
+	height: 56px;
+	background-color: #000000;
 	-webkit-background-size: cover;
   	-moz-background-size: cover;
   	-o-background-size: cover;
@@ -69,15 +69,15 @@ header{
 
 h1{
 	color: white;
-	font-size: xx-large;
-	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-size: medium;
+	font-family: serif;
 	padding: 20px;
 }
 
 h2{
-		color:blue;
-		font-size: 30px;
-		font-family: helvetica;
+	color: #FFFFFF;
+	font-size: 79px;
+	font-family: helvetica;
 }
 
 header img{
@@ -87,9 +87,15 @@ header img{
 	box-shadow: 0 5px 10px black;
 }
 .content{
-	padding-top: 20px;
+	padding-top: 152px;
 	max-width: 100%;
 	text-align: center;
+	line-height: 72px;
+	width: 100%;
+	height: 800px;
+	background-color: #E8B840;
+	background-image: url("https://mikealmonte.files.wordpress.com/2016/01/screen-shot-2016-01-19-at-6-03-25-pm.png");
+	background-repeat:repeat-x;
 }
 
 img.main-image{
